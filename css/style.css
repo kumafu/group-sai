@@ -1,0 +1,183 @@
+
+html,body{
+	margin: 0;
+	font-size: 14pt;
+	-webkit-text-size-adjust: 100%;
+
+}
+a{
+	text-decoration: none;
+	color:inherit;
+}
+a:hover{
+	text-decoration: underline;
+}
+h1.section-header{
+	height:50px;
+	background-color: #ff8b23;
+	margin: 0 0 30px 0;
+	padding: 0;
+	font-size: inherit;
+
+}
+h1.section-header img{
+	margin:12px 0 0 20px;
+}
+div.center{
+	width:962px;
+	margin: 0 auto;
+}
+div.middle-center{
+	width: 922px;
+	margin: 0 auto;
+}
+div.section-content{
+}
+
+div.content-note{
+	position: relative;
+	background-color: #f8f7cb;
+	margin:0 0 30px 0;
+	padding:40px 10px 10px 20px;
+	background-image: url("../assets/img_circle.png");
+	background-repeat: repeat-x;
+	background-position: 10px 0px;
+}
+div.content-note img.note-title{
+	float:left;
+}
+div.content-note p{
+	margin:0 0 5px 120px;
+
+}
+div.each-note{
+	width:415px;
+	height:330px;
+	background-color: white;
+	float: left;
+	box-shadow:3px 3px 6px rgba(0,0,0,0.2); 
+	padding: 10px;
+}
+div.each-note img{
+	margin-bottom:0px;
+}
+div.note-left{
+	margin:20px 40px 10px 0;
+}
+div.note-right{
+	margin:20px 0px 10px 0;
+}
+div.note-hint{
+	position: absolute;
+	top: 50px;
+	right:20px;
+}
+div.content-order{
+	border:1px solid #cccccc;
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+div.content-order p{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+div.content-voice{
+	padding: 0 0 0 0;
+	border:20px solid #fcfcef;
+	margin-bottom: 20px;
+	background-image: url("../assets/bg_voice.png");
+}
+div.content-voice p{
+	line-height: 28px;
+	margin-top:5px;
+}
+div.content-voice span{
+	color:#539300;
+}
+div.content-voice div.voice-footer{
+	background-color: #fcfcef
+}
+div.content-about{
+	margin-bottom:30px;
+}
+div.content-about img{
+	float:left;
+	margin-right:20px;
+}
+div.content-about h3{
+	font-size: 16pt;
+}
+div.content-contact{
+	text-align: center;
+	border:4px double #ff8b23;
+	margin-bottom:30px;
+	padding-top: 15px;
+}
+div.content-contact div.contact-title-text1{ font-size: 18pt }
+div.content-contact div.contact-title-text2{ font-size: 10pt }
+div.content-contact div.contact-title-text3{ font-size: 14pt }
+div.content-contact div.contact-footer{
+	border-top: 1px solid #ff8b23;
+	padding-top: 10px;
+}
+div.content-contact div.contact-item{
+	
+	display:inline-block;
+	margin: 30px;
+}
+div.content-rental{
+	background-color: #cce198;
+	margin-bottom:30px;
+	padding: 20px;
+}
+div.content-rental img{
+	margin-right:40px;
+	float:right;
+}
+div.content-rental div.rental-title{
+	font-size: 20pt;
+	color:#539300;
+	margin-bottom: 10px;
+}
+div.header-logo{
+	margin:15px 0 15px 0;
+}
+div.header-menu{
+	margin:5px 0px 5px 0px;
+}
+div.header-menu span{
+	margin:0 15px 0 15px;
+}
+div.header-title{
+	background-image: url("../assets/bg_ttl_main.png");
+    background-size: 100px 78px;
+	background-repeat: repeat-x;
+	height: 78px;
+	margin:0 0 15px 0;
+	padding: 15px 0 0 0;
+}
+div.top-note{
+	font-size: 16pt;
+}
+div.top-note div.top-note-list{
+	font-size: 14pt;
+	margin: 20px auto 40px auto;
+	width:840px;
+	text-align: left;
+}
+div.top-note div.top-note-text{
+	margin: 0;
+}
+
+div.top-note div.top-note-news{
+	width: 900px;
+	margin: 20px 20px 20px 20px;
+	font-size: 20pt;
+	border: 1px solid;
+	background-color: red;
+	color:#fff;
+}
+
+div.top-note div.top-note-news:hover{
+	background-color: #f66;
+}
