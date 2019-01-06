@@ -1,181 +1,212 @@
+
 <!DOCTYPE html>
+<html lang="ja">
+
 <head>
-	<meta charset="utf-8">
-	<title>グループ菜</title>
-	<link rel="stylesheet" type="text/css" href="./css/style.css" media="all">
-	<link rel="shortcut icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>グループ菜</title>
+    <meta name="description" content="夕食のおかず宅配グループ菜のHPです。">
+    <meta name="keyword" content="夕食,おかず,宅配,おせち">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./sp-header-menu.js"></script>
 </head>
+
 <body>
-	<div class='header-logo' align='center'><img src='./assets/logo_sai.png'></div>
-	<div class='header-menu' align='center'>
-		<span><a href='#menu'>メニュー・料金</a></span>
-		<span><a href='#order'>ご注文・配達について</a></span>
-		<span><a href='#voice'>利用者の声</a></span>
-		<span><a href='#about'>グループ菜とは</a></span>
-		<span><a href='#contact'>お問い合わせ</a></span>
-	</div>
-	<div class='header-title' align='center'><img src='./assets/ttl_main.png'></div>
-	<div class='top-note' align='center'>
-		<div class='top-note-news'><a href='https://docs.google.com/forms/d/e/1FAIpQLSfdY9pWz59uvTkyqTCRpejVqBTzgs0tdvoYbPcybFY9oHXamg/viewform?usp=pp_url&entry.1042607080=0&entry.1030578540=0&entry.1782614307=0&entry.1463244481=0' target='_blank'>2019年のおせちのご注文はこちらから（12月6日（木）まで）</a></div>
-		<div class='top-note-text'>《菜》は、主婦がやっている夕食のおかず宅配グループです。</div>
-		<div class='top-note-text'>主婦の感覚を生かし、旬の野菜をたっぷり使った気取らない家庭料理をお届けしています。</div>
-		<div class='top-note-list'>
-			<div class='top-note-list-item'><img src='./assets/icon_calotte.png' style='margin:0 6px 0 2px; vertical-align:middle;'>私たちの手作り料理は、野菜中心で多くの品目を取り入れています。</div>
-			<div class='top-note-list-item'><img src='./assets/icon_spinach.png' style='margin:1px 9px 2px 4px; vertical-align:middle;'>材料は買い置きせず常に新鮮なものを使用し、安全性の高い食材を選んでいます。</div>
-			<div class='top-note-list-item'><img src='./assets/icon_lotus.png' style='margin:6px 8px 6px 3px; vertical-align:middle;'>和洋中を適度に組み合わせ、ご家庭の幅広い年齢に対応したメニュー内容になっています。</div>
-		</div>
-	</div>
-	<h1 id='menu' class='section-header'>
-		<div class='center'><img src='./assets/ttl_menu.png'></div>
-	</h1>
-	<div class='section-content center'>
-		<div class='content-note'>
-			<img class='note-title' src='./assets/ttl_menu_meal.png'>
-			<p style='font-size:16pt;text-decoration:underline;color:orange;'>火曜・木曜の週2回、夕方お届け</p>
-			<p>内容：メイン2品、副菜2品</p>
-			<p>料金：750円（1人前） ※ご飯は1人前100円でお付け出来ます。</p>
-			<div style='clear:both;'></div>
-			<div class='each-note note-left'><img src='./assets/img_menu_meal_2.png'><br>2人前のお届け例</div>
-			<div class='each-note note-right'><img src='./assets/img_menu_meal_2_setout.png'><br>盛り付け例</div>
-			<div style='clear:both;'></div>
-			<div class='each-note note-left'><img src='./assets/img_menu_meal_1.png'><br>1人前のお届け例</div>
-			<div style='clear:both;'></div>
-			<div class='note-hint'><img src='./assets/txt_hint.png'></div>
-		</div>
-		<div class='content-note'>
-			<img class='note-title' src='./assets/ttl_menu_party.png'>
-			<p>内容：ご相談ください</p>
-			<p>料金：20,000円〜（人数もご相談ください。）</p>
-			<div style='clear:both;'></div>
-			<div class='each-note note-left'><img src='./assets/img_menu_party_1.png'><br>パーティー料理の例</div>
-			<div style='clear:both;'></div>
-		</div>
-		<div class='content-note'>
-			<img class='note-title' src='./assets/ttl_menu_osechi.png'>
-			<p>内容：一重13品</p>
-			<p>料金：4,000円（1人前） / 7,500円（標準 2,3人前） <br> 10,500円（増量 3,4人前） / 12,500円（豪華増量 3,4人前）</p>
-			<div style='clear:both;'></div>
-			<div class='each-note note-left'><img src='./assets/img_menu_osechi_1.png'><br>7,500円の品の例</div>
-			<div style='clear:both;'></div>
-		</div>
-	</div>
-	<h1 id='order' class='section-header'>
-		<div class='center'><img src='./assets/ttl_order.png'></div>
-	</h1>
-	<div class='section-content center'>
-		<div class='content-order'>
-			<img src='./assets/ttl_order_order.png'>
-			<p>月ぎめでお取りいただくのが基本ですが、不定期も承っています。詳しくはご相談ください。</p>
-		</div>
-		<div class='content-order'>
-			<img src='./assets/ttl_order_package.png'>
-			<p>基本的に使い捨てです。ご家庭で不燃物としてお捨てください。</p>
-		</div>
-		<div class='content-order'>
-			<img src='./assets/ttl_order_day.png'>
-			<p>火曜と木曜の週2回夕方（※冷凍品ではありません）</p>
-		</div>
-		<div class='content-order'>
-			<img src='./assets/ttl_order_area.png'>
-			<p>北沢、大原、代田、羽根木、松原、梅ヶ丘、赤堤 など。詳しくはお問い合わせください。</p>
-			<div align='center'><img src='./assets/img_map.png'></div>
-		</div>
-	</div>
-	<h1 id='voice' class='section-header'>
-		<div class='center'><img src='./assets/ttl_voice.png'></div>
-	</h1>
-	<div class='section-content center'>
-		<div class='content-voice'>
-			<p>《グループ菜》とのお付き合いは、羽根木公園を囲む地域のお母さんたちが「子どもがお世話になっている学校の先生方に夕食のおかずを届け、少しでもお役に立てれば」ということで始められ、「教師ではないけど、毎日、目一杯フル回転で動いている私にも作って！」とお願いしたのが、始まりです。<br>
-			 「1日30種類以上の食材で、できるだけ薄味」を目標にしていた我が家には、《菜》の献立は願ったり叶ったりでした。週2回、大急ぎで帰宅しなくて済むのは、精神的にも物理的にもありがたく、この地域から遠くへ引越すことができないのも、《菜》が生活に欠かせないものになっているからです。 大汗をかきながら心を込めて作ってくださるスタッフには、いつも感謝しています。</p>
-			<div class='voice-footer' align='right'>
-				<span>家族3人　50歳代　[菜歴10年以上]</span>
-				<img src='./assets/img_pencil.png'>
-			</div>
-		</div>
-		<div class='content-voice'>
-			<p>《菜》の日は献立を考える必要がないのでホッとできる日です。友達とのお出かけは《菜》の日と決めています。いつも一人分を主人と仲良く分けていただいています。</p>
-			<div class='voice-footer' align='right'>
-				<span>夫婦2人暮らし　60歳代　[菜歴4年]</span>
-				<img src='./assets/img_pencil.png'>
-			</div>
-		</div>
-		<div class='content-voice'>
-			<p>一人暮らしの母は、80歳を過ぎる頃から出来合いのフライや一品料理になりがちで、栄養的に不安だったのですが、おかげさまでたまに風邪をひくくらいで元気に過ごしています。（娘談）</p>
-			<div class='voice-footer' align='right'>
-				<span>一人暮らし　88歳　[菜歴8年]</span>
-				<img src='./assets/img_pencil.png'>
-			</div>
-		</div>
-	</div>
-	<h1 id='about' class='section-header'>
-		<div class='center'><img src='./assets/ttl_about.png'></div>
-	</h1>
-	<div class='section-content center'>
-		<div class='content-about'>
-			<img src='./assets/img_about.png'>
-			<div>
-				<h3>手作り、新鮮、やさしく、そして安全な味。</h3>
-				<p>
-				家庭料理なら当たり前の味を、忙しい主婦や一人暮らしの方たちに食べていただきたくて、1988年から始めました。<br>
-				火曜と木曜の週2回、夕食準備に追われない日は、子育てママはちょっとゆったりお子さんとおしゃべり。一人暮らしの方は食生活に変化をつけ	ていただければ嬉しいです。<br>
-				食事はキチンと、家族はゆっくり。<br>
-				忙しいけど大切だから、グループ菜はこれからもずっとお手伝いしていきたいと思っています。 
-				</p>
-			</div>
-			<div style='clear:both;'></div>
-		</div>
-	</div>
-	<h1 id='contact' class='section-header'>
-		<div class='center'><img src='./assets/ttl_contact.png'></div>
-	</h1>
-	<div class='section-content center'>
-		<div class='content-contact'>
-			<div class='contact-title' align='center'>
-				<div class='contact-title-text1'>NPO法人　グループ菜</div>
-				<div class='contact-title-text2'>〒155-0031 世田谷区北沢2-39-6 COS下北沢202</div>
-				<div class='contact-title-text3'>火・木曜日　9:00〜16:00</div>
-			</div>
-			<div class='contact-item'>
-				<div align='center'><img src='./assets/ttl_tel.png'></div>
-				<div align='left'>
-					代表：03-3468-0408<br>
-					青木：080-6603-6574
-				</div>
-			</div>
-			<div class='contact-item'>
-				<div align='center'><img src='./assets/ttl_fax.png'></div>
-				<div align='left'>
-					代表：03-3468-0408<br>
-					木村：03-3325-6141
-				</div>
-			</div>
-			<div class='contact-item'>
-				<div align='center'><img src='./assets/ttl_mail.png' style='margin:7px 0 0px 0;'></div>
-				<div align='left'>
-					青木：<a href='mailto:litty18mayote@softbank.ne.jp'>litty18mayote@softbank.ne.jp</a><br>
-					福間：<a href='mailto:mmfukuma@gmail.com'>mmfukuma@gmail.com</a>
-				</div>
-			</div>
-			<div style='clear:both;'></div>
-			<div class='contact-footer' align='center'>
-				<img src='./assets/logo_cosfa.png'>
-			</div>
-		</div>
-		<div class='content-rental'>
-			<img src='./assets/img_rental-kitchen.png'>
-			<div class='rental-text'>
-				<div class='rental-title'>レンタルキッチン</div>
-				<div>
-					料金：1時間500円（光熱費1,000円/1回）<br>
-					<br>	
-					・料理教室、お菓子作りなどにお使いいただけます。<br>
-					・調理器具など備品はお使いいただけます。<br>
-					・オーブン完備しています。
-				</div>
-			</div>
-			<div style='clear:both;'></div>
-		</div>
-	</div>
+    <header>
+        <div class="logo"><a href="index.html"><img src='./images/logo_sai.jpg' width="152" height="90" alt='特定非営利活動法人 グループ菜'></a></div>
+        <div class='pc-nav-wrap'>
+            <nav>
+                <ul>
+                    <li><a href='#menu'>メニュー・料金</a></li>
+                    <li><a href='#order'>ご注文方法・お問い合わせ</a></li>
+                    <li><a href='#area'>配達可能エリア</a></li>
+                    <li><a href='#voice'>ご利用者の声</a></li>
+                    <li><a href='about.html#about'>グループ菜とは</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class='sp-nav-wrap'>
+            <div class="toggle">
+                <span></span><span></span><span></span><span>menu</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href='#menu'>メニュー・料金</a></li>
+                    <li><a href='#order'>ご注文方法・お問い合わせ</a></li>
+                    <li><a href='#area'>配達可能エリア</a></li>
+                    <li><a href='#voice'>ご利用者の声</a></li>
+                    <li><a href='about.html#about'>グループ菜とは</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-copy-wrap">
+            <div class="main-copy">
+                <h1>主婦のお料理お届けします</h1>
+            </div>
+        </div>
+        <div class='content-wrap'>
+            <p class="text-lead">《菜》は、主婦が主催する夕食のおかず宅配グループです。<br>主婦の感覚を生かし、旬の野菜をたっぷり使った気取らない家庭料理を手作り。<br>世田谷区周辺にお届けしています。</p>
+            <div class='flex-container'>
+                <div class='flex-item-point'>
+                    <p class="point">ポイント1<br>安全・新鮮な食材で作りたて</p>
+                    <p>安全性の高い食材を選び、買い置きせずに常に新鮮なものを使用しています。</p>
+                    <p class="text-center"><img src='./images/point_1.jpg' alt=''></p>
+                </div>
+                <div class='flex-item-point'>
+                    <p class="point">ポイント2<br>野菜中心で栄養バランスもばっちり</p>
+                    <p>多くの品目を取り入れ、バランスの良いメニュー作りをしています。</p>
+                    <p class="text-center"><img src='./images/point_2.jpg' alt=''></p>
+                </div>
+                <div class='flex-item-point'>
+                    <p class="point">ポイント3<br>幅広い年齢層に対応したメニュー</p>
+                    <p>家族みんなで美味しく食べられるよう、和洋中を適度に組み合わせています。</p>
+                    <p class="text-center"><img src='./images/point_3.jpg' alt=''></p>
+                </div>
+            </div>
+        </div>
+        <div class='content-wrap'>
+            <h2 id='menu'>メニュー・料金</h2>
+            <div class="content-box">
+                <div class="menu-wrap">
+                    <h3>夕食のおかず</h3>
+                    <p>週2回（火曜・木曜）の夕方に、作りたてをお届けします。（冷凍品ではありません）<br>4人家族で2人分を注文しておかずの足しにするのもおすすめです。</p>
+                </div>
+                <ul class="menu">
+                    <li class="menu-detail">メイン2品、副菜2品</li>
+                    <li class="menu-price">750円（1人前）<span class="text-sm text-grey">※ご飯は1人前100円でお付けできます。</span></li>
+                </ul>
+                <div class="flex-container">
+                    <div class='flex-item-meal'>
+                        <img src='./images/img_menu_meal_1.jpg' alt='夕食のおかず 1人前のお届け例'>
+                        <p>1人前のお届け例</p>
+                    </div>
+                    <div class='flex-item-meal'>
+                        <img src='./images/img_menu_meal_2.jpg' alt='夕食のおかず 2人前のお届け例'>
+                        <p>2人前のお届け例</p>
+                    </div>
+                </div>
+                <div class="flex-container">
+                    <div class='flex-item-meal'>
+                        <img src='./images/img_menu_meal_3.jpg' alt='夕食のおかず 盛り付け例'>
+                        <p>盛り付け例</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-box">
+                <div class="menu-wrap">
+                    <h3>パーティー料理</h3>
+                    <p>お集まりの方の人数やお好みに合わせてお作りします。</p>
+                </div>
+                <ul class="menu">
+                    <li class="menu-detail">ご希望をお伺いします。ご相談ください。</li>
+                    <li class="menu-price">20,000円〜　※人数に合わせてお作りします。ご相談ください。</li>
+                </ul>
+                <p class="text-center"><img src='./images/img_menu_party.jpg' alt='パーティー料理'></p>
+            </div>
+
+            <div class="content-box">
+                <div class="menu-wrap">
+                    <h3>おせち料理</h3>
+                    <p>毎年11月頃から予約受付開始します。</p>
+                </div>
+                <ul class="menu">
+                    <li class="menu-detail">一重13品</li>
+                    <li class="menu-price">
+                        <ul class="price">
+                            <li>少量タイプ（1人前）…¥4,000</li>
+                            <li>標準タイプ（2〜3人前）…¥7,500</li>
+                            <li>増量タイプ（3〜4人前）…¥10,500</li>
+                            <li>豪華増量タイプ（3〜4人前）…¥12,500</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="text-center"><img src='./images/img_menu_osechi.jpg' alt='おせち料理'></p>
+            </div>
+        </div>
+
+        <div class='content-wrap'>
+            <h2 id='order'>ご注文方法・お問い合わせ</h2>
+            <p>お電話、メール、FAXにて承ります。<p>
+            <p class="text-sm text-grey">※おせちはお申し込みフォームでも予約を受け付けております。（毎年11月頃から予約受付開始）</p>
+            <div class="contact">
+                <dl>
+                    <dt><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M19.23 15.26l-2.54-.29c-.61-.07-1.21.14-1.64.57l-1.84 1.84c-2.83-1.44-5.15-3.75-6.59-6.59l1.85-1.85c.43-.43.64-1.03.57-1.64l-.29-2.52c-.12-1.01-.97-1.77-1.99-1.77H5.03c-1.13 0-2.07.94-2 2.07.53 8.54 7.36 15.36 15.89 15.89 1.13.07 2.07-.87 2.07-2v-1.73c.01-1.01-.75-1.86-1.76-1.98z"/></svg>電話</dt>
+                    <dd>代表：<a href="tel:0334680408">03-3468-0408</a></dd>
+                    <dd>青木：<a href="tel:08066036574"></a>080-6603-6574</a></dd>
+                </dl>
+                <dl>
+                    <dt><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"/></svg>メール</dt>
+                    <dd>青木：<a href='mailto:litty18mayote@softbank.ne.jp'>litty18mayote@softbank.ne.jp</a></dd>
+                    <dd>福間：<a href='mailto:mmfukuma@gmail.com'>mmfukuma@gmail.com</a></dd>
+                </dl>
+                <dl>
+                    <dt><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M19 8H5c-1.66 0-3 1.34-3 3v4c0 1.1.9 2 2 2h2v2c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2v-2h2c1.1 0 2-.9 2-2v-4c0-1.66-1.34-3-3-3zm-4 11H9c-.55 0-1-.45-1-1v-4h8v4c0 .55-.45 1-1 1zm4-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-2-9H7c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1z"/></svg>FAX</dt>
+                    <dd>代表：03-3468-0408</dd>
+                    <dd>木村：03-3325-6141</dd>
+                </dl>
+            </div>
+            <div class="order-wrap">
+                <h4>夕食のおかず</h4>
+                <ul>
+                    <li>配送日は週2回（火曜・木曜）の夕方です。</li>
+                    <li>月ぎめでお取りいただくのを基本としておりますが、不定期も承っております。詳しくはご相談ください。</li>
+                    <li>容器は基本的に使い捨てです。ご家庭で不燃ゴミとしてお捨てください。</li>
+                </ul>
+            </div>
+            <div class="order-wrap">
+                <h4>パーティー料理</h4>
+                <ul>
+                    <li>人数・お料理の内容をご相談の上、ご注文ください。</li>
+                </ul>
+            </div>
+            <div class="order-wrap">
+                <h4>おせち料理</h4>
+                <ul>
+                    <li>限定数に達し次第締め切る場合もございます。お早めにお申し込みください。</li>
+                    <li>12月30日夕方にお届けいたします。</li>
+                    <li>全国配送が可能です。お問い合わせください。</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class='content-wrap'>
+            <h2 id='area'>配達可能エリア</h2>
+            <p>北沢、大原、代田、羽根木、松原、梅ヶ丘、赤堤など。詳しくはお問い合わせください。</p>
+            <p class="map text-center"><img src='./images/img_map.jpg' alt='配達可能エリア'></p>
+        </div>
+
+        <div class='content-wrap'>
+            <h2 id='voice'>ご利用者の声</h2>
+            <div class="voice-wrap">
+                <p>《グループ菜》とのお付き合いは、羽根木公園を囲む地域のお母さんたちが「子どもがお世話になっている学校の先生方に夕食のおかずを届け、少しでもお役に立てれば」ということで始められ、「教師ではないけど、毎日、目一杯フル回転で動いている私にも作って！」とお願いしたのが、始まりです。<br>「1日30種類以上の食材で、できるだけ薄味」を目標にしていた我が家には、《菜》の献立は願ったり叶ったりでした。<br>週2回、大急ぎで帰宅しなくて済むのは、精神的にも物理的にもありがたく、この地域から遠くへ引越すことができないのも、《菜》が生活に欠かせないものになっているからです。<br>大汗をかきながら心を込めて作ってくださるスタッフには、いつも感謝しています。</p>
+                <p class="user"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12.01 2C6.49 2 2.02 6.48 2.02 12s4.47 10 9.99 10c5.53 0 10.01-4.48 10.01-10S17.54 2 12.01 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.35 8 15.52 8s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.35 8 8.52 8s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm3.5 6.5c2.03 0 3.8-1.11 4.75-2.75.19-.33-.05-.75-.44-.75H7.71c-.38 0-.63.42-.44.75.95 1.64 2.72 2.75 4.75 2.75z"/></svg>家族3人 50代 [菜歴10年以上]</p>
+            </div>
+            <div class="voice-wrap">
+                <p>《菜》の日は献立を考える必要がないのでホッとできる日です。友達とのお出かけは《菜》の日と決めています。いつも一人分を主人と仲良く分けていただいています。</p>
+                <p class="user"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12.01 2C6.49 2 2.02 6.48 2.02 12s4.47 10 9.99 10c5.53 0 10.01-4.48 10.01-10S17.54 2 12.01 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.35 8 15.52 8s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.35 8 8.52 8s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm3.5 6.5c2.03 0 3.8-1.11 4.75-2.75.19-.33-.05-.75-.44-.75H7.71c-.38 0-.63.42-.44.75.95 1.64 2.72 2.75 4.75 2.75z"/></svg>夫婦2人暮らし 60代 [菜歴4年]</p>
+            </div>
+            <div class="voice-wrap">
+                <p>一人暮らしの母は、80歳を過ぎる頃から出来合いのフライや一品料理になりがちで、栄養的に不安だったのですが、おかげさまでたまに風邪をひくくらいで元気に過ごしています。（娘談）</p>
+                <p class="user"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M12.01 2C6.49 2 2.02 6.48 2.02 12s4.47 10 9.99 10c5.53 0 10.01-4.48 10.01-10S17.54 2 12.01 2zm.01 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.35 8 15.52 8s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.35 8 8.52 8s-1.5.67-1.5 1.5.67 1.5 1.5 1.5zm3.5 6.5c2.03 0 3.8-1.11 4.75-2.75.19-.33-.05-.75-.44-.75H7.71c-.38 0-.63.42-.44.75.95 1.64 2.72 2.75 4.75 2.75z"/></svg>一人暮らし 80代 [菜歴8年]</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>NPO法人　グループ菜</p>
+            <p>火・木曜日　9:00〜16:00</p>
+            <p class="text-sm">〒155-0031 世田谷区北沢2-39-6 COS下北沢202</p>
+            <img src='./images/logo_cosfa.jpg' alt='特定非営利活動法人 コスファCOSFA' width="180" height="auto">
+        </div>
+    </footer>
+
 </body>
 </html>
